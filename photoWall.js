@@ -11,10 +11,7 @@ var yiiWall = {
     maxRowHeight    : 200,
     photoMargin     : 5,
     baseURL         : '',
-    formats         : '',
     url             : '',
-    addToCart       : '',
-    unpublished     : '',
 
     showPhoto : function(id,rID){
         var src             = $('#photo_'+id).attr('src'),
